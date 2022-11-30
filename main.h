@@ -7,9 +7,4 @@
 #include <sys/wait.h>
 
 
-
-
-
-
-
 #endif SIMPLE_SHELL

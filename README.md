@@ -60,7 +60,7 @@ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
 
 
         # :spider_web: Baptiste
-	        # :fist_raised: Jean-Luc
+	# :fist_raised: Jean-Luc
 
 ```
 

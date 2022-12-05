@@ -30,6 +30,9 @@ void print_char(char c);
 void print_str(char *str);
 void _printenv(env_t *prenv);
 int _env(unsigned int i);
-int main(void);
+int _token(char *_str);
+void _prompt(void);
+int sh_exec(char **argv);
+int main(int argc, char **argv);
 
 #endif

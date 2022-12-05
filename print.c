@@ -17,7 +17,7 @@ void print_char(char c)
 */
 void print_str(char *str)
 {
-	if (!str)
+	if (!*str)
 		return;
 	print_char(*str++);
 	print_str(str);

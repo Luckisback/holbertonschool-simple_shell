@@ -1,0 +1,30 @@
+.TH SIMPLE_SHELL 1 2022-12-08 "V.1" "simple_shell man page"
+.SH NAME
+s_shell
+.SH SYNOPSYS
+#include "main.h"
+.TP
+That was our first compilation command:
+gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
+.TP
+After we discovered -fsanitize=adresse -g that allowed us to check segmentation fault and other problem.
+.TP
+And we also use Valgrind that check memory leak.
+.SH DESCRIPTION
+simple_shell is a standard command interpreter for the system.
+This man page is not intended to be a tutorial or a complete specification of the simple_shell.
+.SH RETURNS VALUES
+Simple_Shell has no return value.
+.SH OPTIONS AND EXAMPLE
+./s_shell
+.TP
+ls (this is go to execute ls like the shell do)
+.TP
+exit (this is go to execute exit like the shell do)
+.TP
+env (this is go to execute env like the shell do)
+.SH AUTHOR
+.TP
+baptiste
+.TP
+jean-luc

@@ -8,31 +8,20 @@
 #include <stdlib.h>
 #include <sys/wait.h>
 #include <string.h>
-
-/**
- * struct env_s - environment variable
- * @name: environment name
- * @value: environment value
- * @global: result of name and value
- * @next: point to the next node
-*/
-typedef struct env_s
-{
-	char *name;
-	char *value;
-	char *global;
-	struct env_s *next;
-} env_t;
+#include <sys/stat.h>
 
 extern char **environ;
+int _which(char *argv[]);
+int _strlen(char *s);
+char *_strcpy(char *dest, char *src);
+char *_strcat(char *dest, char *src);
 int our_exit(char **argv);
-void print_char(char c);
-void print_str(char *str);
-void _printenv(env_t *prenv);
 int _env(unsigned int i);
 int _token(char *_str);
 void _prompt(void);
 int sh_exec(char **argv);
-int main(int argc, char **argv);
+int read_split(void);
+int builtin(char *str);
+int main(int argc, char **argv, char **envp);
 
 #endif

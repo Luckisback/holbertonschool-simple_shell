@@ -2,8 +2,9 @@
 
 /**
  * rn_split - a program that prints all the arguments
- * a function that splits a string and returns an array 
+ * a function that splits a string and returns an array
  * of each word of the string
+ * Return: tok_tab
  **/
 char **rn_split(void)
 {
@@ -11,14 +12,14 @@ char **rn_split(void)
 	char *_str = NULL;
 	char *token, **tok_tab = NULL;
 
-	while(1)
+	while (1)
 	{
 		printf("$ ");
 
 		if (getline(&_str, &len_str, stdin) == -1)
 			exit(EXIT_FAILURE);
 
-		token = malloc(sizeof(_str) *len_str);
+		token = malloc(sizeof(_str) * len_str);
 		if (token != NULL)
 		{
 			token = strtok(_str, " ");
@@ -42,7 +43,7 @@ char **rn_split(void)
 		}
 		_which(tok_tab); /*Call of the function that build the commande path*/
 	}
-    free(tok_tab);
-    free(token);
-    return (tok_tab);
+	free(tok_tab);
+	free(token);
+	return (tok_tab);
 }

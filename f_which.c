@@ -20,7 +20,7 @@ int _which(char **tok_tab)
 		perror("there is an allocation pb");
 		exit(EXIT_FAILURE);
 	}
-	_token = malloc(sizeof(char) * strlen(src_path));
+	_token = malloc(sizeof(char*) * strlen(src_path));
 	_token = src_path;
 	printf("PATH TO VALEUR DE TOKEN:  %s\n", _token);
 

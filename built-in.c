@@ -34,10 +34,10 @@ int builtin(char *str)
 
 	if (_strcmp(str, "exit") == 0)
 	{
-		_exit_(status);
+		_exit_(0);
 		return (0);
 	}
-	if (_strcmp(&str == "env") == 0)
+	if (_strcmp(str, "env") == 0)
 	{
 		_env();
 		return (0);

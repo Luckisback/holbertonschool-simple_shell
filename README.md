@@ -66,10 +66,9 @@ $ ls -l *.c
 -rw-rw-r-- 1 bilo bilo 1464 nov.  10 10:11 print_int.c
 
 ### Comande to run man page:
-````
+
 man ./man_1_simple_shell
 
-```
 ### Solutions to check memory leaks
 Two solutions are found to resolve a memory problems:
 

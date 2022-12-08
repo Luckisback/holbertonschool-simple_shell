@@ -37,7 +37,7 @@ int builtin(char *str)
 		_exit_(status);
 		return (0);
 	}
-	if (getline(&str == "env") == 0)
+	if (_strcmp(&str == "env") == 0)
 	{
 		_env();
 		return (0);

@@ -10,18 +10,18 @@
 #include <string.h>
 #include <sys/stat.h>
 
+
+int main(void);
 extern char **environ;
-int _which(char *argv[]);
+int _which(char **tok_tab);
 int _strlen(char *s);
 char *_strcpy(char *dest, char *src);
 char *_strcat(char *dest, char *src);
-int our_exit(char **argv);
-int _env(unsigned int i);
-int _token(char *_str);
-void _prompt(void);
-int sh_exec(char **argv);
-int read_split(void);
+void _exit_(__attribut__((unused))char **argv);
+void _env(void);
+int _strcmp(char *s1, char *s2);
+char **rn_split(void);
 int builtin(char *str);
-int main(int argc, char **argv, char **envp);
+char *_getenv(const char *name);
 
 #endif

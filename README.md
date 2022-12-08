@@ -27,7 +27,7 @@ which was been the creation of this program.
 
 | Commands |
 |:-------------------------------|:---------------------------:|--------------------------------:|
-| access (man 2 access)          | chdir (man 2 chdir)         |close (man 2 close)	         | 
+| access (man 2 access)          | chdir (man 2 chdir)         |close (man 2 close)              | 
 | closedir (man 3 closedir)      | execve (man 2 execve)       | exit (man 3 exit)               |
 | exit (man 2 _ exit)            | fflush (man 3 fflush)       | fork (man 2 fork)               |
 | free (man 3 free)              | getcwd (man 3 getcwd)       | getline (man 3 getline)         |
@@ -90,8 +90,8 @@ Two solutions are found to resolve a memory problems:
 * man or help: sh _(Run sh as well)_
 
 
-	# :spider_web: Baptiste
-	# :fist_raised: Jean-Luc
+	## :spider_web: Baptiste
+	## :fist_raised: Jean-Luc
 
 ```
 

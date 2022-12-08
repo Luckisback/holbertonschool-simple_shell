@@ -30,8 +30,6 @@ void _env(void)
  */
 int builtin(char *str)
 {
-	int status = 0;
-
 	if (_strcmp(str, "exit") == 0)
 	{
 		_exit_(0);

@@ -61,9 +61,9 @@ which was been the creation of this program.
 ### Examples of execution: 
 
 $ ls -l *.c
--rw-rw-r-- 1 bilo bilo  319 déc.   5 23:03 _getline.c
--rw-rw-r-- 1 bilo bilo   89 déc.   2 14:44 logo.c
--rw-rw-r-- 1 bilo bilo 1464 nov.  10 10:11 print_int.c
+. -rw-rw-r-- 1 bilo bilo  319 déc.   5 23:03 _getline.c
+. -rw-rw-r-- 1 bilo bilo   89 déc.   2 14:44 logo.c
+. -rw-rw-r-- 1 bilo bilo 1464 nov.  10 10:11 print_int.c
 
 ### Comande to run man page:
 

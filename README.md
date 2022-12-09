@@ -25,7 +25,7 @@ which was been the creation of this program.
 
 ### `List of allowed functions and system calls`     :floppy_disk:
 
-| Commands |
+|                                           Commands                                             |
 |:-------------------------------|:---------------------------:|--------------------------------:|
 | access (man 2 access)          | chdir (man 2 chdir)         |close (man 2 close)              | 
 | closedir (man 3 closedir)      | execve (man 2 execve)       | exit (man 3 exit)               |

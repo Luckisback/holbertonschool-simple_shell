@@ -20,13 +20,9 @@ char *_which(char **tok_tab)
 		exit(EXIT_FAILURE);
 	}
 	_token = malloc(sizeof(char*) * strlen(src_path));
-<<<<<<< HEAD
 	strcpy(_token, src_path);
-=======
 	_token = src_path;
 	printf("PATH TO VALEUR DE TOKEN:  %s\n", _token);
->>>>>>> 24368eaebf996ea78107b767a9dbc5848380cf6c
-
 	if (_token != NULL)
 		_token = strtok(src_path, ":");
 
@@ -59,7 +55,7 @@ char *_which(char **tok_tab)
 	}
 	if (notfound == 0)
 		printf("NOT FOUND\n");
-	
+
 	f_execut(_path);
 
         return (0);

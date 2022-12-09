@@ -22,7 +22,6 @@ char *_which(char **tok_tab)
 	_token = malloc(sizeof(char*) * strlen(src_path));
 	strcpy(_token, src_path);
 
-
 	if (_token != NULL)
 		_token = strtok(src_path, ":");
 
@@ -55,7 +54,7 @@ char *_which(char **tok_tab)
 	}
 	if (notfound == 0)
 		printf("NOT FOUND\n");
-	
+
 	f_execut(_path);
 
         return (0);

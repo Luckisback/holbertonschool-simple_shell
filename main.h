@@ -13,7 +13,7 @@
 
 int main(void);
 extern char **environ;
-int _which(char **tok_tab);
+char *_which(char **tok_tab);
 int _strlen(char *s);
 char *_strcpy(char *dest, char *src);
 char *_strcat(char *dest, char *src);
